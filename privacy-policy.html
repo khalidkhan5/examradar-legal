@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — ExamRadar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Outfit:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Outfit', sans-serif; background: #07070F; color: #EEEEFF; line-height: 1.7; padding: 40px 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 { font-family: 'Sora', sans-serif; font-size: 2rem; margin-bottom: 8px; }
+        h2 { font-family: 'Sora', sans-serif; font-size: 1.3rem; margin-top: 32px; margin-bottom: 12px; color: #7B74FF; }
+        p, li { color: #C8CAE0; margin-bottom: 12px; }
+        ul { padding-left: 24px; }
+        li { margin-bottom: 8px; }
+        .accent { color: #5B52F5; }
+        .effective { color: #8890B0; font-size: 0.9rem; margin-bottom: 24px; }
+        a { color: #7B74FF; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .back { display: inline-block; margin-bottom: 24px; color: #8890B0; font-size: 0.9rem; }
+        .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.06); color: #8890B0; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back">&larr; Back to Legal</a>
+        <h1>Privacy Policy</h1>
+        <p class="effective">Effective Date: April 3, 2026</p>
+
+        <p><strong><span class="accent">Exam</span>Radar</strong> ("we", "our", "us") is a mobile application that helps Indian competitive exam aspirants track exam schedules, deadlines, eligibility, and notifications. This Privacy Policy explains how we collect, use, and protect your information.</p>
+
+        <h2>1. Information We Collect</h2>
+
+        <p><strong>a) Account Information (via Google Sign-In)</strong></p>
+        <ul>
+            <li>Full name</li>
+            <li>Email address</li>
+            <li>Profile picture URL</li>
+        </ul>
+        <p>We use Google OAuth through Supabase Authentication. We do not store your Google password.</p>
+
+        <p><strong>b) Profile &amp; Preferences</strong></p>
+        <ul>
+            <li>Age, home state, educational qualification</li>
+            <li>Preferred exam categories and sub-categories</li>
+            <li>Theme preference (dark/light), language, text size</li>
+            <li>Study goals and reminder settings</li>
+        </ul>
+
+        <p><strong>c) App Usage Data</strong></p>
+        <ul>
+            <li>Exams you track, bookmark, or interact with</li>
+            <li>Study logs, mock test scores, and notes you create</li>
+            <li>Notification preferences and custom reminders</li>
+            <li>Achievement progress and streaks</li>
+        </ul>
+
+        <p><strong>d) Device Information</strong></p>
+        <ul>
+            <li>Firebase Cloud Messaging (FCM) token for push notifications</li>
+            <li>Device model, OS version, and app version</li>
+            <li>Platform (Android/iOS)</li>
+        </ul>
+
+        <p><strong>e) Advertising Data</strong></p>
+        <ul>
+            <li>Google AdMob may collect device advertising identifiers (Google Advertising ID)</li>
+            <li>Ad interaction data (impressions, clicks)</li>
+            <li>We record which ads are shown and on which screens for internal analytics</li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+        <ul>
+            <li>To provide and personalize the exam tracking experience</li>
+            <li>To send push notifications about exam deadlines, admit cards, results, and updates</li>
+            <li>To sync your tracked exams, study logs, and preferences across sessions</li>
+            <li>To display relevant advertisements through Google AdMob</li>
+            <li>To improve app performance and fix bugs</li>
+            <li>To respond to user feedback and support requests</li>
+        </ul>
+
+        <h2>3. Data Storage &amp; Security</h2>
+        <ul>
+            <li>Your data is stored securely on <strong>Supabase</strong> (cloud-hosted PostgreSQL database) with Row Level Security (RLS) policies ensuring users can only access their own data.</li>
+            <li>Authentication is handled by Supabase Auth with Google OAuth integration.</li>
+            <li>Local preferences are stored using encrypted storage (Flutter Secure Storage) and Shared Preferences on your device.</li>
+            <li>All network communication uses HTTPS encryption.</li>
+        </ul>
+
+        <h2>4. Third-Party Services</h2>
+        <p>We use the following third-party services that may collect data:</p>
+        <ul>
+            <li><strong>Supabase</strong> — Backend database, authentication, and real-time services. <a href="https://supabase.com/privacy" target="_blank">Supabase Privacy Policy</a></li>
+            <li><strong>Firebase Cloud Messaging (FCM)</strong> — Push notification delivery. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+            <li><strong>Google AdMob</strong> — Advertisement serving. AdMob may use cookies and device identifiers for ad personalization. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+            <li><strong>Google Sign-In</strong> — Authentication via OAuth 2.0. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+        </ul>
+
+        <h2>5. Advertising</h2>
+        <p>ExamRadar displays advertisements through Google AdMob. These ads may be personalized based on your interests and device information as determined by Google. You can opt out of personalized ads through your device settings:</p>
+        <ul>
+            <li><strong>Android:</strong> Settings &gt; Google &gt; Ads &gt; Opt out of Ads Personalization</li>
+            <li><strong>iOS:</strong> Settings &gt; Privacy &gt; Apple Advertising &gt; Turn off Personalized Ads</li>
+        </ul>
+
+        <h2>6. Data Sharing</h2>
+        <p>We do <strong>not</strong> sell your personal data to third parties. Data may be shared only in these cases:</p>
+        <ul>
+            <li>With Google AdMob for serving advertisements (advertising identifiers and interaction data)</li>
+            <li>With Firebase for delivering push notifications (FCM tokens)</li>
+            <li>If required by law, regulation, or legal process</li>
+        </ul>
+
+        <h2>7. Data Retention</h2>
+        <ul>
+            <li>Your account data is retained as long as your account is active.</li>
+            <li>Study logs, mock tests, notes, and tracking data are retained until you delete them or your account.</li>
+            <li>Notification history is retained for up to 90 days.</li>
+            <li>Ad impression data is retained for analytics purposes in anonymized form.</li>
+        </ul>
+
+        <h2>8. Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li><strong>Access</strong> your personal data through the app's Profile screen</li>
+            <li><strong>Update</strong> your profile information and preferences at any time</li>
+            <li><strong>Delete</strong> your account and all associated data (see our <a href="data-deletion.html">Data Deletion Instructions</a>)</li>
+            <li><strong>Opt out</strong> of push notifications through app settings or device settings</li>
+            <li><strong>Opt out</strong> of personalized advertising through device settings</li>
+        </ul>
+
+        <h2>9. Children's Privacy</h2>
+        <p>ExamRadar is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal data, please contact us and we will delete it promptly.</p>
+
+        <h2>10. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of significant changes through the app or via email. The "Effective Date" at the top of this page indicates when this policy was last updated.</p>
+
+        <h2>11. Contact Us</h2>
+        <p>If you have questions or concerns about this Privacy Policy or your data, please contact us at:</p>
+        <ul>
+            <li>Email: <a href="mailto:khalidkhan753@gmail.com">khalidkhan753@gmail.com</a></li>
+        </ul>
+
+        <div class="footer">
+            <p>&copy; 2026 ExamRadar. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
