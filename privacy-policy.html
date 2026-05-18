@@ -27,7 +27,11 @@
     <div class="container">
         <a href="index.html" class="back">&larr; Back to Legal</a>
         <h1>Privacy Policy</h1>
-        <p class="effective">Effective Date: May 2, 2026</p>
+        <p class="effective">Effective Date: May 18, 2026</p>
+
+        <div style="background:#111122;border-left:3px solid #F5A623;padding:16px 20px;border-radius:8px;margin:16px 0 24px;">
+            <p style="margin:0;"><strong>Important:</strong> ExamRadar is an <strong>independent, unofficial</strong> information aggregator. We are <strong>not</strong> affiliated with, endorsed by, or authorized by any government body, exam conducting authority, or recruitment organization (including but not limited to UPSC, SSC, IBPS, SBI, RBI, RRB, NTA, Indian Navy, Indian Army, Indian Coast Guard, AFCAT, or any State PSC). All exam information is aggregated from publicly available official government sources, with direct links provided so you can verify everything yourself.</p>
+        </div>
 
         <p><strong><span class="accent">Exam</span>Radar</strong> ("we", "our", "us") is a mobile application that helps Indian competitive exam aspirants track exam schedules, deadlines, eligibility, and notifications. This Privacy Policy explains how we collect, use, and protect your information.</p>
 
@@ -72,6 +76,24 @@
             <li><strong>Meta (Facebook) SDK</strong> collects your Android Advertising ID, app event data (e.g. app opens, exam pages viewed, searches performed, exams tracked), and network/connection information to attribute installs and conversions to Meta ad campaigns and to optimise ad delivery</li>
         </ul>
 
+        <p><strong>f) Analytics Data (Firebase Analytics)</strong></p>
+        <ul>
+            <li>Screen views (which screens you visit and time spent on each)</li>
+            <li>App events (sign-in, exam viewed, exam tracked, study log saved, mock test saved, search queries, notification taps, social-follow taps, rating-prompt outcomes)</li>
+            <li>Session information (app opens, session duration, user retention)</li>
+            <li>Device information (model, OS version, app version, language, country)</li>
+            <li>A pseudonymous user identifier linked to your account, used only to compute aggregate metrics like daily active users and retention</li>
+        </ul>
+
+        <p><strong>g) Crash &amp; Diagnostic Data (Firebase Crashlytics)</strong></p>
+        <ul>
+            <li>Crash reports including stack traces, exception type, and the code path that triggered the error</li>
+            <li>Device state at time of crash (memory, OS version, app version, device model)</li>
+            <li>Non-fatal error logs captured automatically when the app encounters unexpected conditions</li>
+            <li>A pseudonymous user identifier so we can determine which users were affected by a particular crash</li>
+        </ul>
+        <p>Crash data is used solely to identify and fix bugs. No personally identifiable content (names, emails, notes, study logs) is included in crash reports.</p>
+
         <h2>2. How We Use Your Information</h2>
         <ul>
             <li>To provide and personalize the exam tracking experience</li>
@@ -79,6 +101,8 @@
             <li>To sync your tracked exams, study logs, and preferences across sessions</li>
             <li>To display relevant advertisements through Google AdMob</li>
             <li>To measure and optimise our advertising campaigns on Meta (Facebook / Instagram) via the Meta App Events SDK</li>
+            <li>To understand aggregate usage patterns (which screens are most used, retention rates, feature adoption) through Firebase Analytics</li>
+            <li>To detect, diagnose, and fix crashes and bugs through Firebase Crashlytics</li>
             <li>To improve app performance and fix bugs</li>
             <li>To respond to user feedback and support requests</li>
         </ul>
@@ -96,6 +120,8 @@
         <ul>
             <li><strong>Supabase</strong> — Backend database, authentication, and real-time services. <a href="https://supabase.com/privacy" target="_blank">Supabase Privacy Policy</a></li>
             <li><strong>Firebase Cloud Messaging (FCM)</strong> — Push notification delivery. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+            <li><strong>Firebase Analytics</strong> — Aggregate usage analytics (screen views, app events, retention metrics). <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+            <li><strong>Firebase Crashlytics</strong> — Crash and error reporting. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
             <li><strong>Google AdMob</strong> — Advertisement serving. AdMob may use cookies and device identifiers for ad personalization. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
             <li><strong>Google Sign-In</strong> — Authentication via OAuth 2.0. <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
             <li><strong>Meta SDK (Facebook App Events)</strong> — App install attribution and conversion tracking for Meta advertising campaigns (Facebook &amp; Instagram). Meta may process your Android Advertising ID and app event data in accordance with their Data Policy. <a href="https://www.facebook.com/policy.php" target="_blank">Meta Data Policy</a></li>
@@ -119,7 +145,9 @@
         <ul>
             <li>With Google AdMob for serving advertisements (advertising identifiers and interaction data)</li>
             <li>With Meta Platforms, Inc. for advertising attribution and campaign optimisation (Android Advertising ID and app event data)</li>
-            <li>With Firebase for delivering push notifications (FCM tokens)</li>
+            <li>With Firebase Cloud Messaging for delivering push notifications (FCM tokens)</li>
+            <li>With Firebase Analytics for aggregate usage analytics (anonymous app events and pseudonymous user IDs)</li>
+            <li>With Firebase Crashlytics for crash diagnostics (stack traces, device state, pseudonymous user IDs)</li>
             <li>If required by law, regulation, or legal process</li>
         </ul>
 
